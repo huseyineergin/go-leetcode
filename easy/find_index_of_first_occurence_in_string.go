@@ -21,8 +21,8 @@ Example 2:
 
 
 Constraints:
-  1 <= haystack.length, needle.length <= 10^4
-  haystack and needle consist of only lowercase English characters.
+	1 <= haystack.length, needle.length <= 10^4
+	haystack and needle consist of only lowercase English characters.
 */
 
 func strStr(str string, sub string) int {

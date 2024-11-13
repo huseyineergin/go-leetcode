@@ -23,9 +23,9 @@ Example 2:
 
 
 Constraints:
-  1 <= strs.length <= 200
-  0 <= strs[i].length <= 200
-  strs[i] consists of only lowercase English letters.
+	1 <= strs.length <= 200
+	0 <= strs[i].length <= 200
+	strs[i] consists of only lowercase English letters.
 */
 
 func longestCommonPrefix(strs []string) string {

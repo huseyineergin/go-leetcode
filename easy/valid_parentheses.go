@@ -27,8 +27,8 @@ Example 3:
 
 
 Constraints:
-  1 <= s.length <= 10^4
-  s consists of parentheses only '()[]{}'.
+	1 <= s.length <= 10^4
+	s consists of parentheses only '()[]{}'.
 */
 
 var pMap = map[rune]rune{

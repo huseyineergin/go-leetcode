@@ -28,9 +28,9 @@ Example 2:
 
 
 Constraints:
-  n == nums.length
-  1 <= n <= 1000
-  1 <= nums[i] <= 1000
+	n == nums.length
+	1 <= n <= 1000
+	1 <= nums[i] <= 1000
 */
 
 func getConcatenation(nums []int) []int {

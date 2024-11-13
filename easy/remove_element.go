@@ -46,9 +46,9 @@ Example 2:
 
 
 Constraints:
-  0 <= nums.length <= 100
-  0 <= nums[i] <= 50
-  0 <= val <= 100
+	0 <= nums.length <= 100
+	0 <= nums[i] <= 50
+	0 <= val <= 100
 */
 
 func removeElement(nums []int, val int) int {

@@ -28,8 +28,8 @@ Example 2:
 
 
 Constraints:
-  1 <= arr.length <= 10^4
-  1 <= arr[i] <= 10^5
+	1 <= arr.length <= 10^4
+	1 <= arr[i] <= 10^5
 */
 
 func replaceElements(arr []int) []int {
