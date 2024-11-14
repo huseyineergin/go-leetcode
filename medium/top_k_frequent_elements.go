@@ -54,3 +54,21 @@ func topKFrequent(nums []int, k int) []int {
 
 	return result
 }
+
+func topKFrequent2(nums []int, k int) []int {
+	numMap := make(map[int]int)
+	for _, num := range nums {
+		numMap[num]++
+	}
+
+	uniques := make([]int, 0, len(numMap))
+	for num := range numMap {
+		uniques = append(uniques, num)
+	}
+
+	sort.Slice(uniques, func(i, j int) bool {
+		return numMap[uniques[i]] > numMap[uniques[j]]
+	})
+
+	return uniques[:k]
+}
